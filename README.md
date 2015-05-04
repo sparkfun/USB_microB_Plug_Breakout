@@ -33,5 +33,3 @@ Distributed as-is; no warranty is given.
 
 - Your friends at SparkFun.
 
-_<COLLABORATION CREDIT>_
-
