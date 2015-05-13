@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -63,6 +63,10 @@
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="yes"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
 <layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
@@ -71,6 +75,7 @@
 <layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+<layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
 <layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
 <layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
@@ -79,10 +84,32 @@
 <layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
 <layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
 <layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="no" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="no" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="113" name="IDFDebug" color="4" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
 <layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
 <layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
@@ -92,9 +119,35 @@
 <layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
 <layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
 <layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="231" name="231bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -107,12 +160,14 @@
 <text x="10.795" y="11.303" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D+</text>
 <text x="13.335" y="11.303" size="1.27" layer="21" font="vector" ratio="15" rot="R270">D-</text>
 <text x="15.875" y="11.303" size="1.27" layer="21" font="vector" ratio="15" rot="R270">VCC</text>
-<text x="22.352" y="0.508" size="1.016" layer="16" font="vector" ratio="15" rot="MR0">5-28-10</text>
+<text x="22.352" y="0.508" size="1.016" layer="16" font="vector" ratio="15" rot="MR0">V13</text>
 <text x="6.985" y="11.303" size="1.27" layer="22" font="vector" ratio="15" rot="MR270">GND</text>
 <text x="9.525" y="11.303" size="1.27" layer="22" font="vector" ratio="15" rot="MR270">ID</text>
 <text x="12.065" y="11.303" size="1.27" layer="22" font="vector" ratio="15" rot="MR270">D+</text>
 <text x="14.605" y="11.303" size="1.27" layer="22" font="vector" ratio="15" rot="MR270">D-</text>
 <text x="17.145" y="11.303" size="1.27" layer="22" font="vector" ratio="15" rot="MR270">VCC</text>
+<text x="17.78" y="8.89" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">USB MicroB Plug</text>
+<text x="14.732" y="7.747" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">Breakout</text>
 </plain>
 <libraries>
 <library name="SparkFun">
@@ -163,54 +218,17 @@
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 </package>
-<package name="SFE-LOGO-FLAME">
-<polygon width="0.0254" layer="21">
-<vertex x="0.5462" y="1.8974"/>
-<vertex x="0.4979" y="1.905" curve="17.884178"/>
-<vertex x="0.3099" y="1.905" curve="46.327753"/>
-<vertex x="0.0712" y="1.7551" curve="35.91905"/>
-<vertex x="0.0001" y="1.5189"/>
-<vertex x="0.0001" y="0.0025"/>
-<vertex x="0.4877" y="0.5512" curve="-23.528974"/>
-<vertex x="0.6757" y="0.6909" curve="-19.885101"/>
-<vertex x="0.7519" y="0.7112"/>
-<vertex x="0.9805" y="0.7112" curve="31.19409"/>
-<vertex x="1.3717" y="0.8204" curve="24.226678"/>
-<vertex x="1.679" y="1.11" curve="41.579705"/>
-<vertex x="1.8593" y="1.844" curve="25.48189"/>
-<vertex x="1.7527" y="2.1412" curve="24.327175"/>
-<vertex x="1.5495" y="2.347"/>
-<vertex x="1.5495" y="2.2581" curve="-30.728978"/>
-<vertex x="1.5418" y="2.2301" curve="-33.047583"/>
-<vertex x="1.4733" y="2.1666" curve="-11.956766"/>
-<vertex x="1.4529" y="2.159" curve="-49.772638"/>
-<vertex x="1.2878" y="2.1895" curve="-0.938211"/>
-<vertex x="1.1964" y="2.2555" curve="-17.462115"/>
-<vertex x="1.1177" y="2.3343" curve="-18.133005"/>
-<vertex x="1.0669" y="2.4333" curve="-27.405164"/>
-<vertex x="1.0618" y="2.4994" curve="-60.325263"/>
-<vertex x="1.2015" y="2.6695" curve="-18.806378"/>
-<vertex x="1.3056" y="2.6899" curve="-3.38798"/>
-<vertex x="1.3666" y="2.6899"/>
-<vertex x="1.3665" y="2.6899"/>
-<vertex x="1.364" y="2.6924" curve="28.458071"/>
-<vertex x="1.2701" y="2.7483" curve="-13.16107"/>
-<vertex x="1.2345" y="2.7635" curve="11.36204"/>
-<vertex x="1.2116" y="2.7737" curve="17.239689"/>
-<vertex x="1.0338" y="2.8042" curve="33.13693"/>
-<vertex x="0.7849" y="2.7356" curve="15.258219"/>
-<vertex x="0.6376" y="2.6137" curve="72.107848"/>
-<vertex x="0.597" y="2.2682" curve="18.59376"/>
-<vertex x="0.8611" y="1.938" curve="-104.814891"/>
-<vertex x="0.8332" y="1.5799" curve="-28.91879"/>
-<vertex x="0.6528" y="1.5189" curve="-42.347638"/>
-<vertex x="0.4446" y="1.5824" curve="-32.991127"/>
-<vertex x="0.3887" y="1.6612" curve="-37.722834"/>
-<vertex x="0.3887" y="1.7958" curve="-35.953185"/>
-<vertex x="0.4115" y="1.8263" curve="1.480237"/>
-<vertex x="0.4954" y="1.8872" curve="-50.628124"/>
-</polygon>
-</package>
+</packages>
+</library>
+<library name="SparkFun-Connectors">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+In this library you'll find connectors and sockets- basically anything that can be plugged into or onto.&lt;br&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
 <package name="MICRO-B-SMT">
 <description>&lt;h3&gt;USB Micro-B Plug Connector&lt;/h3&gt;
 Manufacturer part #: ZX80-B-5SA&lt;br&gt;
@@ -240,10 +258,10 @@ Manufacturer: Hirose&lt;br&gt;&lt;br&gt;
 <wire x1="-4.275" y1="5.38" x2="-4.275" y2="4.48" width="0.127" layer="51"/>
 <wire x1="4.275" y1="5.38" x2="4.275" y2="4.48" width="0.127" layer="51"/>
 <wire x1="-4.275" y1="4.48" x2="4.275" y2="4.48" width="0.127" layer="51"/>
-<pad name="P$6" x="-3.325" y="3.15" drill="1.3" diameter="2.2" rot="R90"/>
-<pad name="P$7" x="-3.325" y="0" drill="1.3" diameter="2.2" rot="R90"/>
-<pad name="P$8" x="3.325" y="3.15" drill="1.3" diameter="2.2" rot="R90"/>
-<pad name="P$9" x="3.325" y="0" drill="1.3" diameter="2.2" rot="R90"/>
+<pad name="P$6" x="-3.12053125" y="3.18301875" drill="1.016" diameter="2.2" rot="R90"/>
+<pad name="P$7" x="-3.097921875" y="-0.026921875" drill="1.016" diameter="2.2" rot="R90"/>
+<pad name="P$8" x="3.1218" y="3.160159375" drill="1.016" diameter="2.2" rot="R90"/>
+<pad name="P$9" x="3.10783125" y="-0.02565625" drill="1.016" diameter="2.2" rot="R90"/>
 <smd name="3" x="0" y="0" dx="2.2" dy="0.4" layer="1" rot="R90"/>
 <smd name="2" x="-0.65" y="0" dx="2.2" dy="0.4" layer="1" rot="R90"/>
 <smd name="1" x="-1.3" y="0" dx="2.2" dy="0.4" layer="1" rot="R90"/>
@@ -253,6 +271,157 @@ Manufacturer: Hirose&lt;br&gt;&lt;br&gt;
 <text x="10.39" y="5.988" size="0.4064" layer="27" rot="R180">&gt;Value</text>
 <hole x="-8.275" y="2.17" drill="3.3"/>
 <hole x="8.275" y="2.17" drill="3.3"/>
+</package>
+</packages>
+</library>
+<library name="SparkFun-Aesthetics">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+In this library you'll find non-functional items- supply symbols, logos, notations, frame blocks, etc.&lt;br&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="CREATIVE_COMMONS">
+<text x="-20.32" y="5.08" size="1.778" layer="51" font="vector">Released under the Creative Commons Attribution Share-Alike 4.0 License</text>
+<text x="0" y="2.54" size="1.778" layer="51" font="vector"> https://creativecommons.org/licenses/by-sa/4.0/</text>
+<text x="11.43" y="0" size="1.778" layer="51" font="vector">Designed by:</text>
+</package>
+<package name="OSHW-LOGO-S">
+<polygon width="0.15" layer="21">
+<vertex x="0.3947" y="-0.9528" curve="9.498218"/>
+<vertex x="0.5465" y="-0.8746"/>
+<vertex x="0.9235" y="-1.182"/>
+<vertex x="1.182" y="-0.9235"/>
+<vertex x="0.8746" y="-0.5465" curve="19.000773"/>
+<vertex x="1.0049" y="-0.232"/>
+<vertex x="1.4888" y="-0.1828"/>
+<vertex x="1.4888" y="0.1828"/>
+<vertex x="1.0049" y="0.232" curve="19.000773"/>
+<vertex x="0.8746" y="0.5465"/>
+<vertex x="1.182" y="0.9235"/>
+<vertex x="0.9235" y="1.182"/>
+<vertex x="0.5465" y="0.8746" curve="19.000773"/>
+<vertex x="0.232" y="1.0049"/>
+<vertex x="0.1828" y="1.4888"/>
+<vertex x="-0.1828" y="1.4888"/>
+<vertex x="-0.232" y="1.0049" curve="19.000773"/>
+<vertex x="-0.5465" y="0.8746"/>
+<vertex x="-0.9235" y="1.182"/>
+<vertex x="-1.182" y="0.9235"/>
+<vertex x="-0.8746" y="0.5465" curve="19.000773"/>
+<vertex x="-1.0049" y="0.232"/>
+<vertex x="-1.4888" y="0.1828"/>
+<vertex x="-1.4888" y="-0.1828"/>
+<vertex x="-1.0049" y="-0.232" curve="19.000773"/>
+<vertex x="-0.8746" y="-0.5465"/>
+<vertex x="-1.182" y="-0.9235"/>
+<vertex x="-0.9235" y="-1.182"/>
+<vertex x="-0.5465" y="-0.8746" curve="9.498218"/>
+<vertex x="-0.3947" y="-0.9528"/>
+<vertex x="-0.1794" y="-0.4331" curve="-67.514699"/>
+<vertex x="-0.4688" y="0" curve="-247.473915"/>
+<vertex x="0.1794" y="-0.4331"/>
+</polygon>
+</package>
+<package name="SFE_LOGO_FLAME_.1">
+<polygon width="0.01" layer="21">
+<vertex x="1.7" y="2.49"/>
+<vertex x="1.7" y="2.4"/>
+<vertex x="1.69" y="2.37"/>
+<vertex x="1.68" y="2.35"/>
+<vertex x="1.65" y="2.32"/>
+<vertex x="1.62" y="2.31"/>
+<vertex x="1.59" y="2.31"/>
+<vertex x="1.51" y="2.33"/>
+<vertex x="1.47" y="2.35"/>
+<vertex x="1.44" y="2.37"/>
+<vertex x="1.4" y="2.4"/>
+<vertex x="1.34" y="2.46"/>
+<vertex x="1.3" y="2.52"/>
+<vertex x="1.29" y="2.56"/>
+<vertex x="1.29" y="2.62"/>
+<vertex x="1.3" y="2.65"/>
+<vertex x="1.31" y="2.67"/>
+<vertex x="1.33" y="2.7"/>
+<vertex x="1.37" y="2.73"/>
+<vertex x="1.41" y="2.75"/>
+<vertex x="1.46" y="2.76"/>
+<vertex x="1.5" y="2.77"/>
+<vertex x="1.56" y="2.77"/>
+<vertex x="1.58" y="2.76"/>
+<vertex x="1.59" y="2.76"/>
+<vertex x="1.58" y="2.77"/>
+<vertex x="1.54" y="2.8"/>
+<vertex x="1.4" y="2.87"/>
+<vertex x="1.31" y="2.89"/>
+<vertex x="1.21" y="2.89"/>
+<vertex x="1.1" y="2.87"/>
+<vertex x="0.99" y="2.81"/>
+<vertex x="0.9" y="2.74"/>
+<vertex x="0.85" y="2.66"/>
+<vertex x="0.82" y="2.57"/>
+<vertex x="0.82" y="2.49"/>
+<vertex x="0.84" y="2.4"/>
+<vertex x="0.89" y="2.31"/>
+<vertex x="0.96" y="2.23"/>
+<vertex x="1.04" y="2.14"/>
+<vertex x="1.11" y="2.07"/>
+<vertex x="1.14" y="1.99"/>
+<vertex x="1.14" y="1.92"/>
+<vertex x="1.12" y="1.86"/>
+<vertex x="1.08" y="1.81"/>
+<vertex x="1.02" y="1.77"/>
+<vertex x="0.94" y="1.75"/>
+<vertex x="0.86" y="1.75"/>
+<vertex x="0.81" y="1.76"/>
+<vertex x="0.76" y="1.78"/>
+<vertex x="0.7" y="1.84"/>
+<vertex x="0.68" y="1.87"/>
+<vertex x="0.67" y="1.9"/>
+<vertex x="0.67" y="1.94"/>
+<vertex x="0.68" y="1.97"/>
+<vertex x="0.74" y="2.03"/>
+<vertex x="0.77" y="2.04"/>
+<vertex x="0.81" y="2.06"/>
+<vertex x="0.82" y="2.07"/>
+<vertex x="0.78" y="2.09"/>
+<vertex x="0.66" y="2.09"/>
+<vertex x="0.6" y="2.08"/>
+<vertex x="0.55" y="2.07"/>
+<vertex x="0.5" y="2.05"/>
+<vertex x="0.46" y="2.02"/>
+<vertex x="0.41" y="1.98"/>
+<vertex x="0.35" y="1.88"/>
+<vertex x="0.33" y="1.81"/>
+<vertex x="0.32" y="1.73"/>
+<vertex x="0.32" y="0.36"/>
+<vertex x="0.37" y="0.41"/>
+<vertex x="0.4" y="0.46"/>
+<vertex x="0.45" y="0.51"/>
+<vertex x="0.5" y="0.57"/>
+<vertex x="0.62" y="0.69"/>
+<vertex x="0.74" y="0.83"/>
+<vertex x="0.84" y="0.93"/>
+<vertex x="0.94" y="0.99"/>
+<vertex x="1" y="1"/>
+<vertex x="1.19" y="1"/>
+<vertex x="1.31" y="1.02"/>
+<vertex x="1.42" y="1.05"/>
+<vertex x="1.52" y="1.09"/>
+<vertex x="1.62" y="1.15"/>
+<vertex x="1.7" y="1.22"/>
+<vertex x="1.78" y="1.3"/>
+<vertex x="1.85" y="1.39"/>
+<vertex x="1.95" y="1.57"/>
+<vertex x="2" y="1.76"/>
+<vertex x="2.01" y="1.93"/>
+<vertex x="1.98" y="2.09"/>
+<vertex x="1.93" y="2.24"/>
+<vertex x="1.86" y="2.35"/>
+<vertex x="1.78" y="2.44"/>
+</polygon>
 </package>
 </packages>
 </library>
@@ -439,8 +608,10 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="JP1" library="SparkFun" package="1X05" value="" x="16.51" y="12.7" rot="R180"/>
-<element name="JP3" library="SparkFun" package="SFE-LOGO-FLAME" value="LOGO-SFESK" x="12.319" y="5.334" rot="MR0"/>
-<element name="JP2" library="SparkFun" package="MICRO-B-SMT" value="USB_MICROB_PLUG-SMT" x="11.43" y="6.35" rot="R180"/>
+<element name="JP2" library="SparkFun-Connectors" package="MICRO-B-SMT" value="" x="11.43" y="6.35" rot="R180"/>
+<element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LETTER" x="-15.36405625" y="-12.192"/>
+<element name="LOGO1" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="2.159" y="12.065"/>
+<element name="LOGO2" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="19.685" y="10.668"/>
 </elements>
 <signals>
 <signal name="N$1">
