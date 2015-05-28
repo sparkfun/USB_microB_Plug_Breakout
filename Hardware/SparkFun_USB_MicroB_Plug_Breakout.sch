@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -7779,7 +7779,7 @@ for the logo on the board is tSilk.</description>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
 <part name="JP1" library="SparkFun" deviceset="M05" device="PTH"/>
-<part name="JP2" library="SparkFun-Connectors" deviceset="USB_MICROB_PLUG" device="-SMT" value="Micro B Plug"/>
+<part name="JP2" library="SparkFun-Connectors" deviceset="USB_MICROB_PLUG" device="-SMT" value="USB Micro B Plug"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".1_INCH"/>
 </parts>
