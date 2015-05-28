@@ -674,7 +674,9 @@ Some male, some female. Watch your step!</description>
 <connect gate="G$1" pin="VCC" pad="1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-09900"/>
+</technology>
 </technologies>
 </device>
 <device name="CONN-11752" package="USB-B-MICRO-SMD_V03">
@@ -7777,7 +7779,7 @@ for the logo on the board is tSilk.</description>
 <parts>
 <part name="FRAME1" library="SparkFun-Aesthetics" deviceset="FRAME-LETTER" device=""/>
 <part name="JP1" library="SparkFun" deviceset="M05" device="PTH"/>
-<part name="JP2" library="SparkFun-Connectors" deviceset="USB_MICROB_PLUG" device="-SMT"/>
+<part name="JP2" library="SparkFun-Connectors" deviceset="USB_MICROB_PLUG" device="-SMT" value="Micro B Plug"/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_FLAME" device=".1_INCH"/>
 </parts>
@@ -7785,6 +7787,8 @@ for the logo on the board is tSilk.</description>
 <sheet>
 <plain>
 <text x="241.3" y="7.62" size="1.778" layer="94">V13</text>
+<text x="148.844" y="7.112" size="2.54" layer="94">Revised by: Patrick Alberts</text>
+<text x="170.434" y="11.43" size="2.54" layer="94">Jim Lindblom</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
