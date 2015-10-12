@@ -1,7 +1,7 @@
 SparkFun USB MicroB Plug Breakout
 ========================================
 
-![SparkFun USB MicroB Plug Breakout](https://cdn.sparkfun.com//assets/parts/4/2/1/8/10031-01.jpg)
+![SparkFun USB MicroB Plug Breakout](https://cdn.sparkfun.com//assets/parts/4/2/1/8/10031-01a.jpg)
 
 [*SparkFun USB MicroB Plug Breakout (BOB-10031)*](https://www.sparkfun.com/products/10031)
 
@@ -19,17 +19,21 @@ Documentation
 * **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
 * **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products. 
 
+Version History
+---------------
+* [v13](https://github.com/sparkfun/USB_microB_Plug_Breakout/v13) - Version 1.3. QC updates to improve manufacturing. Currently live. 
+* [v12](https://github.com/sparkfun/USB_microB_Plug_Breakout/v12) - Version 1.2. Retired. 
 
 
 License Information
 -------------------
+
 This product is _**open source**_! 
 
-The **hardware** is released under [Creative Commons ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/).
+Please review the LICENSE.md file for license information. 
 
-Please use, reuse, and modify these files as you see fit. Please maintain attribution to SparkFun Electronics and release anything derivative under the same license.
+If you have any questions or concerns on licensing, please contact techsupport@sparkfun.com.
 
 Distributed as-is; no warranty is given.
 
 - Your friends at SparkFun.
-
